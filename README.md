@@ -271,7 +271,7 @@ Thank you for helping improve FreshMart!
 
 This project is licensed under the MIT License.
 
-## 
+## Author
 
 **Ayub Kinyua**
 
