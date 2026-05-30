@@ -183,7 +183,6 @@ Vercel will automatically generate a production URL.
 
 ![alt text](image-4.png)
 
-
 ## Future improvements
 
 ### Phase 2
@@ -287,6 +286,12 @@ If you find a bug or have a feature request:
 4. Add screenshots where helpful.
 
 Thank you for helping improve FreshMart!
+
+## Deployment links
+
+* Github pages: https://ayub2022.github.io/freshmart/
+
+* Vercel: https://freshmart-mu.vercel.app/
 
 ## License
 
