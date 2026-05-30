@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FreshMart | Cart</title>
+  
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body class="bg-slate-50 text-slate-900">
+
+  <header class="sticky top-0 z-50 bg-white shadow-sm border-b">
+    <nav class="max-w-7xl mx-auto px-6 py-4 flex justify-between">
+
+       <a href="index.html" class="text-2xl font-bold text-green-700">
+
+        <span class="text-green-700">FRESH</span><span class="text-orange-500">MART</span>
+       </a>
+
+      <div class="hidden md:flex gap-8">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="cart.html" class="text-green-700">Cart</a>
+      </div>
+    </nav>
+  </header>
+  
+  <main class="max-w-7xl mx-auto px-6 py-12">
+    <h1 class="text-3xl font-bold mb-8">Shopping Cart</h1>
+
+    <div class="grid lg:grid-cols-3 gap-8">
+      <section class="lg:col-span-2 space-y-4">
+        <div class="bg-white rounded-2xl shadow p-4 flex items-center gap-4">
+          <img src="assets/red-Apple.jpg" alt="Apples" class="w-24 h-24 object-cover rounded-xl">
+          <div class="flex-1">
+            <h2 class="font-bold">Red Apples</h2>
+            <p class="text-slate-500">Quantity: 2</p>
+          </div>
+          <p class="font-bold">KSh 500</p>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow p-4 flex items-center gap-4">
+          <img src="assets/egg2.jpg" alt="Eggs" class="w-24 h-24 object-cover rounded-xl">
+          <div class="flex-1">
+            <h2 class="font-bold">Fresh Eggs</h2>
+            <p class="text-slate-500">Quantity: 1</p>
+          </div>
+          <p class="font-bold">KSh 300</p>
+        </div>
+      </section>
+
+      <aside class="bg-white rounded-2xl shadow p-6 h-fit">
+        <h2 class="text-xl font-bold mb-6">Order Summary</h2>
+
+        <div class="space-y-3 text-slate-600">
+          <div class="flex justify-between">
+            <span>Subtotal</span>
+            <span>KSh 800</span>
+          </div>
+          <div class="flex justify-between">
+            <span>Delivery</span>
+            <span>KSh 100</span>
+          </div>
+          <div class="flex justify-between font-bold text-slate-900 border-t pt-3">
+            <span>Total</span>
+            <span>KSh 900</span>
+          </div>
+        </div>
+
+        <a href="checkout.html" class="block text-center mt-6 bg-green-600 text-white py-3 rounded-xl">
+          Proceed to Checkout
+        </a>
+      </aside>
+    </div>
+  </main>
+
+
+   <!--Footer-->
+
+    <footer class="bg-green-950 text-white pt-12 pb-6">
+  <div class="max-w-7xl mx-auto px-6">
+
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+
+      <!-- Brand -->
+      <div>
+        <h2 class="text-2xl font-bold">
+          <span class="text-green-700">FRESH</span><span class="text-orange-500">MART</span>
+        </h2>
+
+        <p class="text-green-100 mt-4">
+          Fresh groceries delivered fast and affordably to your doorstep.
+        </p>
+      </div>
+
+      <!-- Shop -->
+      <div>
+        <h3 class="font-semibold text-lg mb-4">Shop</h3>
+        <ul class="space-y-2 text-green-100">
+          <li><a href="products.html" class="hover:text-green-400">All Products</a></li>
+          <li><a href="category.html" class="hover:text-green-400">Fresh Fruits</a></li>
+          <li><a href="category.html" class="hover:text-green-400">Vegetables</a></li>
+          <li><a href="category.html" class="hover:text-green-400">Dairy & Eggs</a></li>
+          <li><a href="category.html" class="hover:text-green-400">Beverages</a></li>
+          <li><a href="products.html" class="hover:text-green-400">Special Offers</a></li>
+        </ul>
+      </div>
+
+      <!-- Customer Service -->
+      <div>
+        <h3 class="font-semibold text-lg mb-4">Customer Service</h3>
+        <ul class="space-y-2 text-green-100">
+          <li><a href="#" class="hover:text-green-400">My Account</a></li>
+          <li><a href="cart.html" class="hover:text-green-400">My Cart</a></li>
+          <li><a href="#" class="hover:text-green-400">Track Order</a></li>
+          <li><a href="#" class="hover:text-green-400">Returns & Refunds</a></li>
+          <li><a href="#" class="hover:text-green-400">FAQs</a></li>
+          <li><a href="contact.html" class="hover:text-green-400">Help Center</a></li>
+        </ul>
+      </div>
+
+      <!-- Company -->
+      <div>
+        <h3 class="font-semibold text-lg mb-4">Company</h3>
+        <ul class="space-y-2 text-green-100">
+          <li><a href="index.html" class="hover:text-green-400">Home</a></li>
+          <li><a href="#" class="hover:text-green-400">About Us</a></li>
+          <li><a href="#" class="hover:text-green-400">Privacy Policy</a></li>
+          <li><a href="#" class="hover:text-green-400">Terms & Conditions</a></li>
+          <li><a href="contact.html" class="hover:text-green-400">Contact Us</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Bottom Footer -->
+    <div class="border-t border-green-800 mt-10 pt-6">
+
+      <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+
+        <p class="text-sm text-green-200">
+          © 2026 FreshMart. All rights reserved.
+        </p>
+
+        <div class="flex gap-6">
+         <a href="https://facebook.com"
+           class="w-10 h-10 flex items-center justify-center rounded-full bg-green-900 hover:bg-green-600 transition">
+              <i class="fab fa-facebook-f"></i>
+         </a>
+
+        <a href="https://instagram.com"
+            class="w-10 h-10 flex items-center justify-center rounded-full bg-green-900 hover:bg-green-600 transition">
+             <i class="fab fa-instagram"></i>
+         </a>
+
+        <a href="https://x.com"
+             class="w-10 h-10 flex items-center justify-center rounded-full bg-green-900 hover:bg-green-600 transition">
+            <i class="fab fa-x-twitter"></i>
+         </a>
+
+         <a href="https://youtube.com"
+             class="w-10 h-10 flex items-center justify-center rounded-full bg-green-900 hover:bg-green-600 transition">
+             <i class="fab fa-youtube"></i>
+         </a>
+
+        </div>
+
+      </div>
+
+    </div>
+    
+</body>
+</html>
