@@ -72,8 +72,6 @@ Freshmart/
 │
 ├── assets/
 │   ├── images/
-│   ├── icons/
-│   └── logos/
 │
 ├── README.md
 └── License
@@ -162,6 +160,29 @@ GitHub will generate a live URL for your project.
 4. Click Deploy
 
 Vercel will automatically generate a production URL.
+
+## Images
+
+### Home pages
+
+![alt text](image.png)
+
+### Product detail page
+
+![alt text](image-1.png)
+
+### Cart
+
+![alt text](image-2.png)
+
+### Login page
+
+![alt text](image-3.png)
+
+### Checkout page
+
+![alt text](image-4.png)
+
 
 ## Future improvements
 
